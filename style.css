@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* NAVBAR */
+
+.nav {
+    background-color: #545454;
+    color: whitesmoke;
+    height: 80px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+.active{
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn{
+    background-color: rgb(23, 179, 176);;
+    box-shadow: 6px 6px rgb(33, 33, 33);
+    padding: 8px 28px;
+    color: whitesmoke;
+}
+/* USERCARD */
+.flex-container{
+    display: flex;
+}
+.mainBox {
+    margin-left: 300px;
+    margin-top: 30px;
+    width: 600px;
+    border: 1px solid #545454;
+}
+.topBox{
+    background-color: rgb(35, 126, 218);
+    height: 110px;
+    padding-top: 60px;
+    padding-left: 20px;
+    margin-bottom: 70px;
+}
+.topBox img{
+    height: 150px;
+    width: 150px;
+    border: 3px solid grey;
+    border-radius: 50%;
+}
+.cardBody{
+    margin-left: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cardBody h1,.cardBody div,.cardBody p{
+    margin-bottom: 10px;
+}
+.cardBody img{
+    height: 25px;
+    margin-right: 10px;
+    width: auto;
+}
+.flexAlignCenter{
+    display: flex;
+    align-items: center;
+}
+/* BELOWLEFTBOX */
+.belowBox{
+    margin-left: 300px;
+    margin-top: 30px;
+    width: 600px;
+    border: 1px solid #545454;
+}
+.header h3{
+    background-color: #545454;
+    color: whitesmoke;
+    height: auto;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+.belowBoxContent h2, .belowBoxContent h3, .belowBoxContent h4{
+padding-left: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.belowBoxContent h4{
+    color: grey;
+}
+/* RIGHTTOPBOX */
+.rightTopBox{
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 1px solid #545454;
+    height: 200px;
+    width: 250px;
+}
+.rightTopHeader h3 {
+    background-color: #545454;
+    color: whitesmoke;
+    height: auto;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+.todd, .phil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.todd img, .phil img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+/* RIGHTBELOWBOX */
+.belowRightBox{
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 1px solid #545454;
+}
+.belowRightHeader{
+    background-color: #545454;
+    color: whitesmoke;
+    height: auto;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+.adrien, .anne, .alayne, .arry{
+    display: flex;
+    align-items: center;
+   padding-left: 20px;
+   padding-top: 15px;
+   padding-right: 20px;
+   padding-bottom: 10px;
+   justify-content: space-between;
+}
+.adrien img, .anne img, .alayne img, .arry img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.flexleftColumn{
+    display: flex;
+    flex: 1;
+}
+.flexrightColumn{
+    display: flex;
+    flex: 1;
+}
+.flex-container{
+    display: flex;
+}
